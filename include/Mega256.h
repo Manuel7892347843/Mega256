@@ -14,7 +14,6 @@ struct Mega256 {
 
     Mega256();
     Mega256(int64_t value);
-    Mega256(uint64_t value);
     Mega256(const std::string& str);
 
     Mega256 operator+(const Mega256& other) const;

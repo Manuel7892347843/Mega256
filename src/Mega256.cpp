@@ -33,12 +33,6 @@ Mega256::Mega256(int64_t value) {
     }
 }
 
-Mega256::Mega256(uint64_t value) {
-    data.fill(0);
-    data[0] = value;
-    is_negative = false;
-}
-
 Mega256::Mega256(const std::string &str) {
     data.fill(0);
     is_negative = false;
