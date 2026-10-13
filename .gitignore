@@ -30,3 +30,16 @@
 *.exe
 *.out
 *.app
+
+# File di sistema o temporanei
+.DS_Store
+Thumbs.db
+
+# File interni di configurazione di CLion / IntelliJ
+.idea/
+*.iml
+
+# Cartelle di compilazione e build locali
+/cmake-build-debug/
+/cmake-build-release/
+/build/
